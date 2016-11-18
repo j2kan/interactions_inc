@@ -166,13 +166,39 @@ span.psw {
     </div>
   </header>
 </body>
-
 <div id="tableContainer-1">
-  <!-- <div id="tableContainer-2"> -->
-  <p><center> Weather? </center></p>
-    <table id="myTable" border>
-      <tr><td>
-  <form action="action_page.php">
+
+  <div id="plemx-root"></div> 
+  <script type="text/javascript"> 
+
+  var _plm = _plm || [];
+  _plm.push(['_btn', 44473]); 
+  _plm.push(['_loc','caon0728']);
+  _plm.push(['location', document.location.host ]);
+   (function(d,e,i) {
+  if (d.getElementById(i)) return;
+  var px = d.createElement(e);
+  px.type = 'text/javascript';
+  px.async = true;
+  px.id = i;
+  px.src = ('https:' == d.location.protocol ? 'https:' : 'http:') + '//widget.twnmm.com/js/btn/pelm.js?orig=en_ca';
+  var s = d.getElementsByTagName('script')[0];
+
+  var py = d.createElement('link');
+  py.rel = 'stylesheet'
+  py.href = ('https:' == d.location.protocol ? 'https:' : 'http:') + '//widget.twnmm.com/styles/btn/styles.css'
+
+  s.parentNode.insertBefore(px, s);
+  s.parentNode.insertBefore(py, s);
+})(document, 'script', 'plmxbtn');</script>
+
+
+
+
+
+<table id="myTable" border>
+  <tr><td>
+  <form action="Homepage/index.html">
   <div class="imgcontainer">
   <h1> Sign in </h1>
   </div>
@@ -189,7 +215,12 @@ span.psw {
 	</form>
       </td></tr>
     </table>
-  <!-- </div> -->
+
+<footer>
+<br>
+<br>
+ <center>© 2015-2016 Interactions Inc</center>
+</footer>
 </div>
 
 
