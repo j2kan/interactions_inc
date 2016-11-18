@@ -41,6 +41,7 @@ list-style-type: none;
     .article {-webkit-flex: 0px;flex:100 0px;-webkit-order:2;order:2;}
     footer {-webkit-order:3;order:3;}
 }
+
 </style>
 </head>
 <body>
@@ -56,18 +57,35 @@ list-style-type: none;
 </nav>
 
 <article class="article">
+
+  <p id="demo"></p>
+
+  <script>
+  function myFunction() {
+      var x;
+      if (confirm("This event is now schduled on your calendar!") == true) {
+          x = " ";
+      } else {
+          x = "Event removed.";
+      }
+      document.getElementById("demo").innerHTML = x;
+  }
+  </script>
+
   <img src="eventOne.png" alt="Event One" usemap = "#attendEvent1">
   <map name="attendEvent1">
-  <area shape="poly" coords="226,60,285,60,285,92,228,90" alt="Sun" href="attendEvent.htm">
+  <area shape="poly" coords="226,60,285,60,285,92,228,90"  onclick = "myFunction()">
+  <button onclick="myFunction()">Try it</button>
+
   <p></p>
   <img src="eventTwo.png" alt="Event Two" usemap = "#attendEvent2">
   <map name="attendEvent2">
-  <area shape="poly" coords="230,61,293,61,292,92,230,96" alt="Sun" href="interactions_inc/eventPage/">
+  <area shape="poly" coords="230,61,293,61,292,92,230,96" alt="Sun" onclick = "myFunction()">
 
   <p></p>
   <img src="eventThree.png" alt="Event Three" usemap = "#attendEvent3">
   <map name="attendEvent3" >
-  <area shape="poly" coords="229,57,287,55,289,90,228,87" alt="Sun" href="interactions_inc/eventPage/">
+  <area shape="poly" coords="229,57,287,55,289,90,228,87" alt="Sun" onclick = "myFunction()">
 </article>
 <footer>Copyright © Interactions Inc.</footer>
 </div>
