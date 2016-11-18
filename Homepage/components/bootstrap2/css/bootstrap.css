@@ -805,8 +805,8 @@ h4 small {
 
 .page-header {
   padding-bottom: 9px;
-  margin: 20px 0 30px;
-  border-bottom: 1px solid #eeeeee;
+  margin: 0px 0 30px;
+  /*border-top: 1px solid #eeeeee;*/
 }
 
 ul,
@@ -3621,11 +3621,12 @@ input[type="submit"].btn.btn-mini {
   position: relative;
   display: inline-block;
   *display: inline;
-  *margin-left: .3em;
+  *margin-left: .8em;
   font-size: 0;
   white-space: nowrap;
   vertical-align: middle;
   *zoom: 1;
+
 }
 
 .btn-group:first-child {
@@ -6118,13 +6119,14 @@ a.badge:focus {
 }
 
 .hero-unit {
-  padding: 60px;
+  padding: 0px;
   margin-bottom: 30px;
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: #fff;
+  border-bottom: 1px solid #eeeeee;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
