@@ -27,11 +27,5 @@
 
 
 
-
-<footer>
 <!-- <div id="plemx-root"></div>  -->
-<br>
-<br>
- <center>© 2015-2016 Interactions Inc.</center>
-</footer>
 </html>
