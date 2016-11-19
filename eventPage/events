@@ -62,13 +62,14 @@ list-style-type: none;
   <p id="demo"></p>
 
   <script>
-  function myFunction2() {
-      var x;
-      if (confirm("This event is now saved for later.") == true)
+  function myFunction2()
+  {
+    var person = prompt("Who would you like to share this with?",
+    "Enter Email");
+      if (person != null)
       {
-        href = "../eventPage/events1"
-      } else {
-          x = "Event removed.";
+          document.getElementById("demo").innerHTML =
+          "This event has been shared with " + person + "!";
       }
       document.getElementById("demo").innerHTML = x;
   }

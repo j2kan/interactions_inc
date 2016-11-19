@@ -62,21 +62,14 @@ list-style-type: none;
   <p id="demo"></p>
 
   <script>
-  function myFunction() {
-      var x;
-      if (confirm("This event is now schduled on your calendar!") == true) {
-          x = " ";
-      } else {
-          x = "Event removed.";
-      }
-      document.getElementById("demo").innerHTML = x;
-  }
-  function myFunction2() {
-      var x;
-      if (confirm("This event is now saved for later.") == true) {
-          x = " ";
-      } else {
-          x = "Event removed.";
+  function myFunction2()
+  {
+    var person = prompt("Who would you like to share this with?",
+    "Enter Email");
+      if (person != null)
+      {
+          document.getElementById("demo").innerHTML =
+          "This event has been shared with " + person + "!";
       }
       document.getElementById("demo").innerHTML = x;
   }
