@@ -1,7 +1,10 @@
+<?php
+include '../nav.php';
+?>
+
 <html>
-<head>
-  <link rel="stylesheet" href="../Homepage/components/bootstrap2/css/bootstrap.css">
-	<link rel="stylesheet" href="../Homepage/components/bootstrap2/css/bootstrap-responsive.css">
+  <link rel="stylesheet" href="../Homepage/components/bootstrap3/css/bootstrap.css">
+	<link rel="stylesheet" href="../Homepage/components/bootstrap3/css/bootstrap-responsive.css">
 <style>
 .flex-container
 {
@@ -23,19 +26,6 @@
     text-align: left;
 }
 
-header {background: white;color:grey;}
-.nav {background:#eee;}
-
-.nav ul
-{
-list-style-type: none;
- padding: 0;
-}
-
-.nav ul a
-{
- text-decoration: none;
-}
 
 @media all and (min-width: 700px) {
     .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
@@ -44,7 +34,6 @@ list-style-type: none;
 }
 
 </style>
-</head>
 <body>
 
 <div class="flex-container">
@@ -62,22 +51,14 @@ list-style-type: none;
   <p id="demo"></p>
 
   <script>
-  function myFunction() {
-      var x;
-      if (confirm("This event is now schduled on your calendar!") == true) {
-          x = " ";
-      } else {
-          x = "Event removed.";
-      }
-      document.getElementById("demo").innerHTML = x;
-  }
-  function myFunction2() {
+  function myFunction2()
+  {
     var person = prompt("Who would you like to share this with?",
     "Enter Email");
       if (person != null)
       {
           document.getElementById("demo").innerHTML =
-          "Hello " + person + "! How are you today?";
+          "This event has been shared with " + person + "!";
       }
       document.getElementById("demo").innerHTML = x;
   }

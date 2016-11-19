@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<?php
+  include '../nav.php';
+?>
 <head>
   <title>Select you interview time!</title>
 
@@ -23,7 +26,7 @@
 
   <tr>
     <td>1:30pm-2:00pm</td>
-   <td><a href="../Homepage/JobmineInterviewTime5.html">Select Time</a></td>
+   <td><a href="../Homepage/JobmineInterviewTime5.php">Select Time</a></td>
   </tr>
 
   <tr>
@@ -33,12 +36,12 @@
 
     <tr>
     <td>2:30pm-3:00pm</td>
-    <td><a href="../Homepage/JobmineInterviewTime5.html">Select Time</a></td>
+    <td><a href="../Homepage/JobmineInterviewTime5.php">Select Time</a></td>
   </tr>
 
    <tr class="active">
     <td>3:00pm-3:30pm</td>
-   <td><a href="../Homepage/JobmineInterviewTime5.html">Unselect Time</a></td>
+   <td><a href="../Homepage/JobmineInterviewTime5.php">Unselect Time</a></td>
   </tr>
 
 </table> 
@@ -47,11 +50,11 @@
 <table>
 <tr>
 <td>
- <form action= "../Homepage/JobmineSelectScreen3.html" class="col-sm-offset-2 col-sm-10">
+ <form action= "../Homepage/JobmineSelectScreen3.php" class="col-sm-offset-2 col-sm-10">
 <input class="btn btn-warning" type = "submit" name = "Save" value="Save"/></form>
 </td>
 <td>
- <form action= "../Homepage/JobmineSelectScreen2.html" class="col-sm-offset-2 col-sm-10">
+ <form action= "../Homepage/JobmineSelectScreen2.php" class="col-sm-offset-2 col-sm-10">
 <input class="btn btn-warning" type = "submit" name = "Cancel" value="Cancel"></form>
 </td>
 </tr>
