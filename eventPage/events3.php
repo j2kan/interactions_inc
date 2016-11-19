@@ -6,6 +6,7 @@ include '../nav.php';
   <link rel="stylesheet" href="../Homepage/components/bootstrap3/css/bootstrap.css">
 	<link rel="stylesheet" href="../Homepage/components/bootstrap3/css/bootstrap-responsive.css">
 <style>
+
 .flex-container
 {
     display: -webkit-flex;
