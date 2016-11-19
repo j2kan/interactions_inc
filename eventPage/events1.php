@@ -1,7 +1,10 @@
+<?php
+include '../nav.php';
+?>
+
 <html>
-<head>
-  <link rel="stylesheet" href="../Homepage/components/bootstrap2/css/bootstrap.css">
-	<link rel="stylesheet" href="../Homepage/components/bootstrap2/css/bootstrap-responsive.css">
+  <link rel="stylesheet" href="../Homepage/components/bootstrap3/css/bootstrap.css">
+	<link rel="stylesheet" href="../Homepage/components/bootstrap3/css/bootstrap-responsive.css">
 <style>
 .flex-container
 {
@@ -23,19 +26,6 @@
     text-align: left;
 }
 
-header {background: white;color:grey;}
-.nav {background:#eee;}
-
-.nav ul
-{
-list-style-type: none;
- padding: 0;
-}
-
-.nav ul a
-{
- text-decoration: none;
-}
 
 @media all and (min-width: 700px) {
     .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
@@ -44,7 +34,6 @@ list-style-type: none;
 }
 
 </style>
-</head>
 <body>
 
 <div class="flex-container">
