@@ -16,16 +16,15 @@
     <ul class="nav navbar-nav">
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-map-marker"></span>Events</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-pencil"></span>Class</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Events</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-pencil"></span> Class</a></li>
       <li><a href="#"><span class="glyphicon glyphicon-usd"></span>Jobmine</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-envelope"></span>Email</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-out"></span>Logout</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Email</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
     </ul>
   </div>
 </nav>
 
 </head>
-
 <!-- <div id="plemx-root"></div>  -->
 </html>
