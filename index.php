@@ -1,4 +1,5 @@
-<link rel="shortcut icon" href="favicon.ico" />
+<link rel="apple-touch-icon" sizes="114x114" href="${resource(dir: 'images', file: 
+'apple-touch-icon-retina.png')}">
 <link rel="stylesheet" href="Homepage/components/bootstrap3/css/bootstrap.css">
 <link rel="stylesheet" href="Homepage/components/bootstrap3/css/bootstrap-responsive.css">
  <script type="text/javascript"> 
@@ -133,7 +134,7 @@ span.psw {
 <p></p>
 <table style="border: 0px solid white;" id="myTable" width="50" border>
   <tr><td>
-  <form  action="Homepage/index.php">
+  <form  action="Homepage/home.php">
   <div class="imgcontainer">
   <p><br><br><br></p>
   <h1> Sign in </h1>
