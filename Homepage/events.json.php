@@ -3,75 +3,75 @@
 	"result": [
 		{
 			"id": "293",
-			"title": "This is warning class event with very long title to check how it fits to evet in day view",
+			"title": "MSCI 343 Lecture",
 			"url": "http://www.example.com/",
-			"class": "event-warning",
-			"start": "1362938400000",
-			"end":   "1363197686300"
+			"class": "event-important",
+			"start": "1479483007000",
+			"end":   "1479504607000"
 		},
 		{
 			"id": "256",
-			"title": "Event that ends on timeline",
+			"title": "MSCI 342 Assignment Due",
 			"url": "http://www.example.com/",
-			"class": "event-warning",
-			"start": "1363155300000",
-			"end":   "1363227600000"
+			"class": "event-special",
+			"start": "1479448740000",
+			"end":   "1479448740000"
 		},
 		{
 			"id": "276",
-			"title": "Short day event",
+			"title": "MSCI 332 Lecture",
 			"url": "http://www.example.com/",
-			"class": "event-success",
-			"start": "1363245600000",
-			"end":   "1363252200000"
+			"class": "event-important",
+			"start": "1479308400000",
+			"end":   "1479315000000"
 		},
 		{
 			"id": "294",
-			"title": "This is information class ",
+			"title": "MSCI 446 Lecture",
 			"url": "http://www.example.com/",
-			"class": "event-info",
-			"start": "1363111200000",
-			"end":   "1363284086400"
+			"class": "event-important",
+			"start": "1479220200000",
+			"end":   "1479223200000"
 		},
 		{
 			"id": "297",
-			"title": "This is success event",
+			"title": "MSCI 446 Tutorial",
 			"url": "http://www.example.com/",
-			"class": "event-success",
-			"start": "1363234500000",
-			"end":   "1363284062400"
+			"class": "event-important",
+			"start": "1479249000000",
+			"end":   "1479252000000"
 		},
 		{
 			"id": "54",
-			"title": "This is simple event",
+			"title": "Tesla Interview",
 			"url": "http://www.example.com/",
-			"class": "",
-			"start": "1363712400000",
-			"end":   "1363716086400"
+			"class": "event-info",
+			"start": "1479567600000",
+			"end":   "1479571200000"
 		},
 		{
 			"id": "532",
-			"title": "This is inverse event",
+			"title": "Facebook Interview",
 			"url": "http://www.example.com/",
-			"class": "event-inverse",
-			"start": "1364407200000",
-			"end":   "1364493686400"
+			"class": "event-info",
+			"start": "1478793600000",
+			"end":   "1478797200000"
 		},
 		{
 			"id": "548",
-			"title": "This is special event",
+			"title": "MSCI 343: Assignment 3 Due",
 			"url": "http://www.example.com/",
 			"class": "event-special",
-			"start": "1363197600000",
-			"end":   "1363629686400"
+			"start": "1479574800000",
+			"end":   "1479574800000"
 		},
 		{
 			"id": "295",
-			"title": "Event 3",
+			"title": "MSCI 333 Group Meeting",
 			"url": "http://www.example.com/",
-			"class": "event-important",
-			"start": "1364320800000",
-			"end":   "1364407286400"
+			"class": "event-warning",
+			"start": "1479650400000",
+			"end":   "1479682800000"
 		}
 	]
 }

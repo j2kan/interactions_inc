@@ -611,7 +611,7 @@ a:focus {
 
 [class*="span"].pull-right,
 .row-fluid [class*="span"].pull-right {
-  float: right;
+  float: left;
 }
 
 .container {
