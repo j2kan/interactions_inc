@@ -49,7 +49,8 @@ include '../nav.php';
   <header>
     <h1>Kitchener, ON Events</h1>
   </header>
-  <br>
+  <p></p>
+    <p></p>
   <p id="demo"></p>
   <script>
   function myFunction2()
