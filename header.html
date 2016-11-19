@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="Homepage/components/bootstrap3/css/bootstrap.css">
-<link rel="stylesheet" href="Homepage/components/bootstrap3/css/bootstrap-responsive.css">
+<link rel="stylesheet" href="Homepage/components/bootstrap2/css/bootstrap.css">
+<link rel="stylesheet" href="Homepage/components/bootstrap2/css/bootstrap-responsive.css">
  <script type="text/javascript"> 
 
   var _plm = _plm || [];
@@ -22,16 +22,64 @@
   s.parentNode.insertBefore(px, s);
   s.parentNode.insertBefore(py, s);
 })(document, 'script', 'plmxbtn');</script>
-	
+  
 <style>
 
+.nav ul {
+  list-style: none;
+  background-color: #160b79;
+  text-align: left;
+  padding: 0;
+  margin: -10px;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -75px;
+  }
+
+}
 /* Bordered form */
 form {
     /*border: 0px solid #f1f1f1;*/
 }
 
 /* Full-width inputs */
-/*input[type=text], input[type=password] {
+input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -39,12 +87,12 @@ form {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
-*/
+
 /* Set a style for all buttons */
 button {
-    background-color: #0b42c1;
+    background-color: #160b79;
     color: white;
-    padding: 10px 20px;
+    padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
@@ -77,7 +125,7 @@ img.avatar {
 
 /* The "Forgot password" text */
 span.psw {
-    float: left;
+    float: right;
     padding-top: 0;
 
 }
@@ -110,49 +158,32 @@ span.psw {
   #myTable {
     margin: 0 auto;
   }
-.Large
-{
-    font-size: 16pt;
-    height: 30px;
-}
+
 </style>
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#"> <span class="glyphicon glyphicon-globe"></span>   Connect</a>
+<body class="news">
+  <header>
+    <div class="nav">
+      <ul>
+    <font color="#160b79";>----</font>
+        <li> <img src="connect.jpg" alt="Avatar" class="avatar"> </li>
+        <li class="home"><a href="#">Connect</a></li>
+        <li> <img src="pin.jpg" alt="Avatar" class="avatar"> </li>
+<!--         <li> <img src="book.jpg" alt="Avatar" class="avatar"> </li>
+        <li> <img src="job.jpg" alt="Avatar" class="avatar"> </li>
+        <li> <img src="mail.jpg" alt="Avatar" class="avatar"> </li>
+        <li> <img src="door.jpg" alt="Avatar" class="avatar"> </li> -->
+        <li> </li>
+      </ul>
     </div>
-    <ul class="nav navbar-nav">
-      <!-- <li class="active"><a href="#">Home</a></li> -->
-    </ul>
-  </div>
-</nav>
+  </header>
+</body>
 <div id="tableContainer-1">
 
-<p></p>
-<table style="border: 0px solid white;" id="myTable" width="50" border>
-  <tr><td>
-  <form  action="Homepage/index.html">
-  <div class="imgcontainer">
-  <p><br><br><br></p>
-  <h1> Sign in </h1>
-  </div>
-  <div class="container">
-    <label><b>Username</b></label>
-    <input size="30" class="Large" type="text" placeholder="" name="uname" required>
-    <label><b>Password</b></label>
-    <input size="30" class="Large" type="password" placeholder="" name="psw" required>
-    <input type="checkbox" checked="checked"> Remember me
-    <button type="submit">Connect</button>
-   <span class="psw"> <a href="#"><font color="#0b42c1">Trouble connecting?</font></a></span>
-  </div>
-	</form>
-      </td></tr>
-    </table>
-<footer>
 <!-- <div id="plemx-root"></div>  -->
+<footer>
 <br>
 <br>
- <center>© 2015-2016 Interactions Inc.</center>
+ <center> <span class="glyphicon glyphicon-copyright-mark"></span> 2015-2016 Interactions Inc.</center>
 </footer>
 </div>
 
