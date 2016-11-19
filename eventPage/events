@@ -1,5 +1,7 @@
 <html>
 <head>
+  <link rel="stylesheet" href="../Homepage/components/bootstrap2/css/bootstrap.css">
+	<link rel="stylesheet" href="../Homepage/components/bootstrap2/css/bootstrap-responsive.css">
 <style>
 .flex-container
 {
@@ -22,7 +24,6 @@
 }
 
 header {background: white;color:grey;}
-footer {background: #aaa;color:white;}
 .nav {background:#eee;}
 
 .nav ul
@@ -72,7 +73,7 @@ list-style-type: none;
   }
   </script>
 
-  <img src="eventOne.png" alt="Event One" usemap = "#attendEvent1" border="1">
+  <img src="eventOne.png" alt="Event One" usemap = "#attendEvent1" border="2">
   <map name="attendEvent1">
   <area shape="poly" coords="226,60,285,60,285,92,228,90"  onclick = "myFunction()">
 
@@ -81,20 +82,20 @@ list-style-type: none;
   <br>
 
 
-  <img src="eventTwo.png" alt="Event Two" usemap = "#attendEvent2" border = "1">
+  <img src="eventTwo.png" alt="Event Two" usemap = "#attendEvent2" border = "2">
   <map name="attendEvent2">
   <area shape="poly" coords="230,61,293,61,292,92,230,96" alt="Sun" onclick = "myFunction()">
 
   <br>
   <br>
 
-  <img src="eventThree.png" alt="Event Three" usemap = "#attendEvent3" border="1">
-  <map name="attendEvent3" >
-  <area shape="poly" coords="229,57,287,55,289,90,228,87" alt="Sun" onclick = "myFunction()"
-  style="border-color: red">
+  <img src="eventThree.png" alt="Event Three" usemap = "#attendEvent3" border="2">
+  <map name="attendEvent3">
+  <area shape="poly" coords="229,57,287,55,289,90,228,87" alt="Sun" onclick = "myFunction()">
 </article>
-<footer>Copyright © Interactions Inc.</footer>
-</div>
+<footer>
+ <center>© 2015-2016 Interactions Inc.</center>
+</footer></div>
 
 </body>
 </html>
