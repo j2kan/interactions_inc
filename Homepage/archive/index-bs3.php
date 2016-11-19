@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Twitter Bootstrap jQuery Calendar component</title>
+	<title>Home | Connect</title>
 
 	<meta name="description" content="Full view calendar component for twitter bootstrap with year, month, week, day views.">
 	<meta name="keywords" content="jQuery,Bootstrap,Calendar,HTML,CSS,JavaScript,responsive,month,week,year,day">
@@ -27,9 +27,8 @@
 </head>
 <body>
 <div class="container">
-	<div class="jumbotron">
+	<div class="hero-unit">
 		<h1>Welcome Rudra</h1>
-
 	</div>
 
 	<div class="page-header">
@@ -46,15 +45,21 @@
 				<button class="btn btn-warning" data-calendar-view="week">Week</button>
 				<button class="btn btn-warning" data-calendar-view="day">Day</button>
 			</div>
+
 		</div>
 
 		<h3></h3>
-		<small>To see example with events navigate to march 2013</small>
+		<small></small>
 	</div>
+	<a href="../underdev/under_dev.html"><img src="img/add.jpg" width="20" height="20" align="left"></a>
+&#160;&#160;&#160;&#160;&#160;
+<a href="../underdev/under_dev.html"><img src="img/remove.jpg" width="20" height="20" ></a>
 
 	<div class="row">
 		<div class="col-md-9">
+
 			<div id="calendar"></div>
+
 		</div>
 		<div class="span3">
 			
@@ -129,21 +134,7 @@
 	</div>
 	
 	
-	<div class="modal fade" id="events-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h3 class="modal-title">Event</h3>
-				</div>
-				<div class="modal-body" style="height: 400px">
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-				</div>
-			</div>
-		</div>
-	</div>
+
 
 	<script type="text/javascript" src="components/jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="components/underscore/underscore-min.js"></script>

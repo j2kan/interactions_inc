@@ -61,7 +61,7 @@ a:hover {
 
 h1 {
   margin: 0.67em 0;
-  font-size: 2em;
+  font-size: 4em;
 }
 
 abbr[title] {
@@ -4923,7 +4923,7 @@ a.list-group-item.active > .badge,
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: #fff;
 }
 
 .jumbotron h1 {
