@@ -6,7 +6,7 @@
 
 <head>
     <title>Interaction Inc</title>
-</head>
+
 
   <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -25,7 +25,7 @@
   </div>
 </nav>
 
-
+</head>
 
 <!-- <div id="plemx-root"></div>  -->
 </html>
