@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
+<?php
+  include '../nav.php';
+?>
 <head>
-	<title>Select you interview time!</title>
+  <title>Select you interview time!</title>
 
   <link rel="stylesheet" href="components/bootstrap3/css/bootstrap.css">
 
@@ -11,11 +14,11 @@
     <div class="row">
         <div class="col-xs-6">
 
-	<h1>Congratulations!</h1>
+  <h1>Congratulations!</h1>
 
     <h3>Oliver Wynman</h3>
     <p>October 26th, 2016</p>
-	 <table id="DB_course_table" class="table table-hover">
+   <table id="DB_course_table" class="table table-hover">
   <tr>
     <th>Time</th>
     <th>Select</th>
@@ -23,7 +26,7 @@
 
   <tr>
     <td>1:30pm-2:00pm</td>
-   <td><a href="../Homepage/JobmineInterviewTime3.html">Select Time</a></td>
+   <td><a href="../Homepage/JobmineInterviewTime4.php">Select Time</a></td>
   </tr>
 
   <tr>
@@ -31,27 +34,25 @@
    <td>Time Taken</td>
   </tr>
 
-    <tr class="active">
+    <tr>
     <td>2:30pm-3:00pm</td>
-    <td><a href="../Homepage/JobmineInterviewTime4.html">Unselect Time</a></td>
+    <td><a href="../Homepage/JobmineInterviewTime4.php">Select Time</a></td>
   </tr>
 
    <tr>
     <td>3:00pm-3:30pm</td>
-   <td><a href="../Homepage/JobmineInterviewTime3.html">Select Time</a></td>
+   <td><a href="../Homepage/JobmineInterviewTime5.php">Select Time</a></td>
   </tr>
-
 </table> 
-
 
 <table>
 <tr>
 <td>
- <form action= "../Homepage/JobmineSelectScreen3.html" class="col-sm-offset-2 col-sm-10">
+ <form action= "../Homepage/JobmineSelectScreen2.php" class="col-sm-offset-2 col-sm-10">
 <input class="btn btn-warning" type = "submit" name = "Save" value="Save"/></form>
 </td>
 <td>
- <form action= "../Homepage/JobmineSelectScreen2.html" class="col-sm-offset-2 col-sm-10">
+ <form action= "../Homepage/JobmineSelectScreen2.php" class="col-sm-offset-2 col-sm-10">
 <input class="btn btn-warning" type = "submit" name = "Cancel" value="Cancel"></form>
 </td>
 </tr>
@@ -73,13 +74,11 @@
 
 <blockquote>8:00am-9:00am &nbsp; &nbsp; HCI Midterm</blockquote>
 <blockquote>12:00pm-1:00pm &nbsp; Yelp Information Session</blockquote>
-<blockquote>1:00pm-2:00pm &nbsp; &nbsp; HCI Group Meeting</blockquote>
-<blockquote>2:30pm-3:00pm &nbsp; &nbsp; Oliver Wynman Interview!</blockquote>
+<blockquote>1:00pm-2:00pm &nbsp; &nbsp; HCI Group Meeting&nbsp; &nbsp;&nbsp;<img src="Warning.jpg" width="73" height="60"></blockquote>
 
   </div>
 </div>
 </div>
-
 
 </body>
 
