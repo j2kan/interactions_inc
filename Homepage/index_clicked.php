@@ -1,3 +1,6 @@
+<?php
+	include '../nav.php'
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -82,7 +85,7 @@
 			 </table>
 
 			<br><br>
-			<h2><u>To Do</u> <a href="index_clicked.html"><img src="img/remove.jpg" width="20" height="20" align="right"></a>&#160;<a href="index_clicked.html"><img src="img/add.jpg" width="20" height="20" align="right"></a></h2>
+			<h2><u>To Do</u> <a href="index_clicked.php"><img src="img/remove.jpg" width="20" height="20" align="right"></a>&#160;<a href="index_clicked.html"><img src="img/add.jpg" width="20" height="20" align="right"></a></h2>
 			<table style="width:100%">
 				<tr>
 			    <td>Prepare for Tesla Interview</td>
