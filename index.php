@@ -1,3 +1,4 @@
+<link rel="shortcut icon" href="favicon.ico" />
 <link rel="stylesheet" href="Homepage/components/bootstrap3/css/bootstrap.css">
 <link rel="stylesheet" href="Homepage/components/bootstrap3/css/bootstrap-responsive.css">
  <script type="text/javascript"> 
@@ -116,7 +117,7 @@ span.psw {
     height: 30px;
 }
 </style>
-<title>a raindrop: &#128167; Login </title>
+<title> Login </title>
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
