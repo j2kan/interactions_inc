@@ -1,5 +1,3 @@
-<link rel="apple-touch-icon" sizes="114x114" href="${resource(dir: 'images', file: 
-'apple-touch-icon-retina.png')}">
 <link rel="stylesheet" href="Homepage/components/bootstrap3/css/bootstrap.css">
 <link rel="stylesheet" href="Homepage/components/bootstrap3/css/bootstrap-responsive.css">
  <script type="text/javascript"> 
@@ -118,6 +116,7 @@ span.psw {
     height: 30px;
 }
 </style>
+<link rel="icon" href="connect2.jpg">
 <title> Login </title>
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
