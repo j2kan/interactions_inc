@@ -131,7 +131,7 @@ span.psw {
 <p></p>
 <table style="border: 0px solid white;" id="myTable" width="50" border>
   <tr><td>
-  <form  action="Homepage/index.html">
+  <form  action="Homepage/index.php">
   <div class="imgcontainer">
   <p><br><br><br></p>
   <h1> Sign in </h1>
