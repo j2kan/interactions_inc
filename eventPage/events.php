@@ -47,8 +47,9 @@ include '../nav.php';
 
 <article class="article">
   <header>
-    <h1><ins>Kitchener, ON Events</ins></h1>
+    <h1>Kitchener, ON Events</h1>
   </header>
+  <br>
   <p id="demo"></p>
   <script>
   function myFunction2()
