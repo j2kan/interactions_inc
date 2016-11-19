@@ -5,7 +5,7 @@
 <html lang="en">
 
 <head>
-    <title>Interaction Inc</title>
+    <title>Events | Connect</title>
 
 
   <nav class="navbar navbar-inverse">
