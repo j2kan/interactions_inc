@@ -37,9 +37,7 @@ include '../nav.php';
 <body>
 
 <div class="flex-container">
-<header>
-  <h1><ins>Kitchener, ON Events</ins></h1>
-</header>
+
 <nav class="nav">
 <ul>
   <img src="map.png" alt="Map View">
@@ -47,6 +45,10 @@ include '../nav.php';
 </nav>
 
 <article class="article">
+  <header>
+    <h1>Kitchener, ON Events</h1>
+  </header>
+  <br>
 
   <p id="demo"></p>
 

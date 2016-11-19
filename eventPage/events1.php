@@ -6,6 +6,7 @@ include '../nav.php';
   <link rel="stylesheet" href="../Homepage/components/bootstrap3/css/bootstrap.css">
 	<link rel="stylesheet" href="../Homepage/components/bootstrap3/css/bootstrap-responsive.css">
 <style>
+
 .flex-container
 {
     display: -webkit-flex;
@@ -22,7 +23,8 @@ include '../nav.php';
     flex: 1 75%;
 }
 
-.article {
+.article
+{
     text-align: left;
 }
 
@@ -37,9 +39,7 @@ include '../nav.php';
 <body>
 
 <div class="flex-container">
-<header>
-  <h1><ins>Kitchener, ON Events</ins></h1>
-</header>
+
 <nav class="nav">
 <ul>
   <img src="map.png" alt="Map View">
@@ -47,9 +47,11 @@ include '../nav.php';
 </nav>
 
 <article class="article">
-
+  <header>
+    <h1>Kitchener, ON Events</h1>
+  </header>
+  <br>
   <p id="demo"></p>
-
   <script>
   function myFunction2()
   {
@@ -66,7 +68,7 @@ include '../nav.php';
 
   <img src="event1.png" alt="Event One" usemap = "#attendEvent1" border="2">
   <map name="attendEvent1">
-  <area shape="poly" coords="226,60,285,60,285,92,228,90"  href = "../eventPage/events">
+  <area shape="poly" coords="226,60,285,60,285,92,228,90"  href = "../eventPage/events.php">
   <area shape="poly" coords="711,103,746,102,747,139,709,138"  onclick = "myFunction2()">
   <area shape="poly" coords="5,3,202,4,202,101,5,103,11,113,192,116,194,129,14,128" href#>
   </map>

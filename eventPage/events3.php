@@ -37,9 +37,7 @@ include '../nav.php';
 <body>
 
 <div class="flex-container">
-<header>
-  <h1><ins>Kitchener, ON Events</ins></h1>
-</header>
+
 <nav class="nav">
 <ul>
   <img src="map.png" alt="Map View">
@@ -47,6 +45,10 @@ include '../nav.php';
 </nav>
 
 <article class="article">
+  <header>
+    <h1>Kitchener, ON Events</h1>
+  </header>
+  <br>
 
   <p id="demo"></p>
 
@@ -85,7 +87,7 @@ include '../nav.php';
 
   <img src="event3.png" alt="Event Three" usemap = "#attendEvent3" border="2">
   <map name="attendEvent3">
-  <area shape="poly" coords="229,57,287,55,289,90,228,87" href = "../eventPage/events3">
+  <area shape="poly" coords="229,57,287,55,289,90,228,87" href = "../eventPage/events3.php">
   <area shape="poly" coords="706,101,745,103,748,137,706,134"  onclick = "myFunction2()">
   <area shape="poly" coords="6,4,186,8,193,97,5,99" href#>
   <area shape="poly" coords="7,113,181,111,183,131,8,129" href#>
