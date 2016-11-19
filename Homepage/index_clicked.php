@@ -1,5 +1,5 @@
 <?php
-	include_once '../nav.php';
+	include '../nav.php'
 ?>
 <!DOCTYPE html>
 <html>
@@ -56,7 +56,7 @@
 		<!--<small>To see example with events navigate to march 2013</small>-->
 	</div>
 <!--add buttons here if you want to be above chart-->
-<a href="../underdev/under_dev.html"><img src="img/add.jpg" width="20" height="20" align="left"></a>&#160;&#160;&#160;&#160;&#160;<a href="../underdev/under_dev.html"><img src="img/remove.jpg" width="20" height="20" ></a>
+<a href="index_clicked.html"><img src="img/add.jpg" width="20" height="20" align="left"></a>&#160;&#160;&#160;&#160;&#160;<a href="index_clicked.html"><img src="img/remove.jpg" width="20" height="20" ></a>
 	<div class="row">
 		<div class="span9">
 			<div id="calendar"></div>
@@ -85,7 +85,7 @@
 			 </table>
 
 			<br><br>
-			<h2><u>To Do</u> <a href="../underdev/under_dev.html"><img src="img/remove.jpg" width="20" height="20" align="right"></a>&#160;<a href="../underdev/under_dev.html"><img src="img/add.jpg" width="20" height="20" align="right"></a></h2>
+			<h2><u>To Do</u> <a href="index_clicked.php"><img src="img/remove.jpg" width="20" height="20" align="right"></a>&#160;<a href="index_clicked.html"><img src="img/add.jpg" width="20" height="20" align="right"></a></h2>
 			<table style="width:100%">
 				<tr>
 			    <td>Prepare for Tesla Interview</td>
@@ -94,7 +94,7 @@
 			  <tr><td><br></td></tr>
 			  <tr>
 			    <td>Study MSCI 333</td>
-			    <td><a href="index_clicked.php"><img src="img/grey.png" width="20" height="20"></a></td>
+			    <td><a href="index.html"><img src="img/blue.png" width="20" height="20"></a></td>
 			  </tr>
 			  <tr><td><br></td></tr>
 			  <tr>

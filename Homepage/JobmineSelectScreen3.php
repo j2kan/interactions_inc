@@ -4,7 +4,7 @@
   include '../nav.php';
 ?>
 <head>
-	<title>Your upcoming Interviews!</title>
+	<title>Jobmine | Connect</title>
 
   <link rel="stylesheet" href="components/bootstrap3/css/bootstrap.css">
 
