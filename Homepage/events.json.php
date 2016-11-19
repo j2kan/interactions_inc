@@ -43,9 +43,41 @@
 		},
 		{
 			"id": "54",
-			"title": "Tesla Interview",
+			"title": "Info Tesla Interview",
 			"url": "http://www.example.com/",
 			"class": "event-info",
+			"start": "1479567600000",
+			"end":   "1479571200000"
+		},
+		{
+			"id": "53",
+			"title": "Important",
+			"url": "http://www.example.com/",
+			"class": "event-important",
+			"start": "1479567600000",
+			"end":   "1479571200000"
+		},
+		{
+			"id": "59",
+			"title": "Success",
+			"url": "http://www.example.com/",
+			"class": "event-success",
+			"start": "1479567600000",
+			"end":   "1479571200000"
+		},
+		{
+			"id": "61",
+			"title": "Inverse",
+			"url": "http://www.example.com/",
+			"class": "event-inverse",
+			"start": "1479567600000",
+			"end":   "1479571200000"
+		},
+		{
+			"id": "61",
+			"title": "Warning",
+			"url": "http://www.example.com/",
+			"class": "event-warning",
 			"start": "1479567600000",
 			"end":   "1479571200000"
 		},
