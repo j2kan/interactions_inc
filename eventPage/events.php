@@ -6,6 +6,7 @@ include '../nav.php';
   <link rel="stylesheet" href="../Homepage/components/bootstrap3/css/bootstrap.css">
 	<link rel="stylesheet" href="../Homepage/components/bootstrap3/css/bootstrap-responsive.css">
 <style>
+
 .flex-container
 {
     display: -webkit-flex;
@@ -22,7 +23,8 @@ include '../nav.php';
     flex: 1 75%;
 }
 
-.article {
+.article
+{
     text-align: left;
 }
 
@@ -36,9 +38,7 @@ include '../nav.php';
 <body>
 
 <div class="flex-container">
-<header>
-  <h1><ins>Kitchener, ON Events</ins></h1>
-</header>
+
 <nav class="nav">
 <ul>
   <img src="map.png" alt="Map View">
@@ -46,9 +46,10 @@ include '../nav.php';
 </nav>
 
 <article class="article">
-
+  <header>
+    <h1><ins>Kitchener, ON Events</ins></h1>
+  </header>
   <p id="demo"></p>
-
   <script>
   function myFunction2()
   {
