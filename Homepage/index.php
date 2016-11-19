@@ -1,5 +1,5 @@
 <?php
-	include_once '../nav.php';
+	include '../nav.php'
 ?>
 <!DOCTYPE html>
 <html>
