@@ -1,5 +1,27 @@
 <link rel="stylesheet" href="Homepage/components/bootstrap2/css/bootstrap.css">
 <link rel="stylesheet" href="Homepage/components/bootstrap2/css/bootstrap-responsive.css">
+ <script type="text/javascript"> 
+
+  var _plm = _plm || [];
+  _plm.push(['_btn', 44473]); 
+  _plm.push(['_loc','caon0728']);
+  _plm.push(['location', document.location.host ]);
+   (function(d,e,i) {
+  if (d.getElementById(i)) return;
+  var px = d.createElement(e);
+  px.type = 'text/javascript';
+  px.async = true;
+  px.id = i;
+  px.src = ('https:' == d.location.protocol ? 'https:' : 'http:') + '//widget.twnmm.com/js/btn/pelm.js?orig=en_ca';
+  var s = d.getElementsByTagName('script')[0];
+
+  var py = d.createElement('link');
+  py.rel = 'stylesheet'
+  py.href = ('https:' == d.location.protocol ? 'https:' : 'http:') + '//widget.twnmm.com/styles/btn/styles.css'
+
+  s.parentNode.insertBefore(px, s);
+  s.parentNode.insertBefore(py, s);
+})(document, 'script', 'plmxbtn');</script>
 	
 <style>
 
@@ -66,7 +88,7 @@
 }
 /* Bordered form */
 form {
-    border: 3px solid #f1f1f1;
+    /*border: 0px solid #f1f1f1;*/
 }
 
 /* Full-width inputs */
@@ -154,7 +176,7 @@ span.psw {
   <header>
     <div class="nav">
       <ul>
-      --- 
+      ----- 
       	<li> <img src="connect.jpg" alt="Avatar" class="avatar"> </li>
         <li class="home"><a href="#">Connect</a></li>
         <!-- <li class="tutorials"><a href="#">Tutorials</a></li> -->
@@ -168,48 +190,21 @@ span.psw {
 </body>
 <div id="tableContainer-1">
 
-  <div id="plemx-root"></div> 
-  <script type="text/javascript"> 
-
-  var _plm = _plm || [];
-  _plm.push(['_btn', 44473]); 
-  _plm.push(['_loc','caon0728']);
-  _plm.push(['location', document.location.host ]);
-   (function(d,e,i) {
-  if (d.getElementById(i)) return;
-  var px = d.createElement(e);
-  px.type = 'text/javascript';
-  px.async = true;
-  px.id = i;
-  px.src = ('https:' == d.location.protocol ? 'https:' : 'http:') + '//widget.twnmm.com/js/btn/pelm.js?orig=en_ca';
-  var s = d.getElementsByTagName('script')[0];
-
-  var py = d.createElement('link');
-  py.rel = 'stylesheet'
-  py.href = ('https:' == d.location.protocol ? 'https:' : 'http:') + '//widget.twnmm.com/styles/btn/styles.css'
-
-  s.parentNode.insertBefore(px, s);
-  s.parentNode.insertBefore(py, s);
-})(document, 'script', 'plmxbtn');</script>
-
-
-
-
-
-<table id="myTable" border>
+<!-- <div id="plemx-root"></div>  -->
+<p></p>
+<table style="border: 0px solid white;" id="myTable" width="50" border>
   <tr><td>
-  <form action="Homepage/index.html">
+  <form  action="Homepage/index.html">
   <div class="imgcontainer">
   <h1> Sign in </h1>
   </div>
   <div class="container">
     <label><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
-
     <label><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
-    <button type="submit">Connect</button>
     <input type="checkbox" checked="checked"> Remember me
+    <button type="submit">Connect</button>
     <span class="psw"> <a href="#">Trouble connecting?</a></span>
   </div>
 	</form>
@@ -219,7 +214,7 @@ span.psw {
 <footer>
 <br>
 <br>
- <center>© 2015-2016 Interactions Inc</center>
+ <center>© 2015-2016 Interactions Inc.</center>
 </footer>
 </div>
 
