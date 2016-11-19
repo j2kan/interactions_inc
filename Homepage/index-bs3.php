@@ -1,3 +1,6 @@
+<?php
+	include '../nav.php'
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,15 +28,8 @@
 <body>
 <div class="container">
 	<div class="jumbotron">
-		<h1>Bootstrap Calendar Demo</h1>
+		<h1>Welcome Rudra</h1>
 
-		<p>Bootstrap based full view calendar. Template based.</p>
-
-		<a class="btn btn-default btn-primary" href="https://github.com/Serhioromano/bootstrap-calendar">Fork on GitHub</a>
-		<a class="btn btn-default" href="index.html">Use bootstrap 2</a>
-		<a href="https://twitter.com/serhioromano" class="btn btn-default btn-twitter" data-show-count="false" data-size="large">Follow @serhioromano</a>
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-		</script>
 	</div>
 
 	<div class="page-header">
@@ -60,59 +56,77 @@
 		<div class="col-md-9">
 			<div id="calendar"></div>
 		</div>
-		<div class="col-md-3">
-			<div class="row">
-				<select id="first_day" class="form-control">
-					<option value="" selected="selected">First day of week language-dependant</option>
-					<option value="2">First day of week is Sunday</option>
-					<option value="1">First day of week is Monday</option>
-				</select>
-				<select id="language" class="form-control">
-					<option value="">Select Language (default: en-US)</option>
-					<option value="bg-BG">Bulgarian</option>
-					<option value="nl-NL">Dutch</option>
-					<option value="fr-FR">French</option>
-					<option value="de-DE">German</option>
-					<option value="el-GR">Greek</option>
-					<option value="hu-HU">Hungarian</option>
-					<option value="id-ID">Bahasa Indonesia</option>
-					<option value="it-IT">Italian</option>
-					<option value="pl-PL">Polish</option>
-					<option value="pt-BR">Portuguese (Brazil)</option>
-					<option value="ro-RO">Romania</option>
-					<option value="es-CO">Spanish (Colombia)</option>
-					<option value="es-MX">Spanish (Mexico)</option>
-					<option value="es-ES">Spanish (Spain)</option>
-					<option value="es-CL">Spanish (Chile)</option>
-					<option value="ru-RU">Russian</option>
-					<option value="sk-SR">Slovak</option>
-					<option value="sv-SE">Swedish</option>
-					<option value="ko-KR">Korean</option>
-					<option value="zh-TW">繁體中文</option>
-					<option value="th-TH">Thai (Thailand)</option>
-				</select>
-				<label class="checkbox">
-					<input type="checkbox" value="#events-modal" id="events-in-modal"> Open events in modal window
-				</label>
-				<label class="checkbox">
-					<input type="checkbox" id="format-12-hours"> 12 Hour format
-				</label>
-				<label class="checkbox">
-					<input type="checkbox" id="show_wb" checked> Show week box
-				</label>
-				<label class="checkbox">
-					<input type="checkbox" id="show_wbn" checked> Show week box number
-				</label>
-			</div>
+		<div class="span3">
+			
+			<!--<a href="index_clicked.html"><img src="img/add.jpg" width="20" height="20"></a>
+			&#160;&#160;&#160;
+			<a href="index_clicked.html"><img src="img/remove.jpg" width="20" height="20"></a>
+			<br><br>-->
+			<h2><u>Don't Forget</u></h2>
+			<!--<small>This list is populated with events dynamically</small>-->
+			<!--<ul id="eventlist" class="nav nav-list"></ul>-->
+			<table style="width:25%">
+				<tr>
+			    <td>Tuesday 11:59 P.M.</td>
+			    <td>342 Assignment</td>
+			    
+			  </tr>
+			  <tr><td><br></td></tr>
+			  <tr>
+			    <td>Friday 10:00 A.M.</td>
+			    <td>Tesla Interview</td>
+			    
+			  </tr>
+			 </table>
 
-			<h4>Events</h4>
-			<small>This list is populated with events dynamically</small>
-			<ul id="eventlist" class="nav nav-list"></ul>
+			<br><br>
+			<h2><u>To Do</u> <a href="../underdev/under_dev.html"><img src="img/remove.jpg" width="20" height="20" align="right"></a>&#160;<a href="../underdev/under_dev.html"><img src="img/add.jpg" width="20" height="20" align="right"></a></h2>
+			<table style="width:25%">
+				<tr>
+			    <td>Prepare for Tesla Interview</td>
+			    <td><img src="img/blue.png" width="24" height="24"></td>
+			  </tr>
+			  <tr><td><br></td></tr>
+			  <tr>
+			    <td>Study MSCI 333</td>
+			    <td><a href="index_clicked.html"><img src="img/grey.png" width="20" height="20"></a></td>
+			  </tr>
+			  <tr><td><br></td></tr>
+			  <tr>
+			    <td>Find a Sublet</td>
+			    <td><img src="img/grey.png" width="20" height="20"></td>
+			  </tr>
+			 </table>
 		</div>
+
+		
 	</div>
 
 	<div class="clearfix"></div>
-	<br><br>
+
+	<div class="row-fluid">
+	<!--<h4>Options:</h4>
+	<select id="first_day" class="span12">
+		<option value="" selected="selected">First day of week</option>
+		<option value="2">First day of week is Sunday</option>
+		<option value="1">First day of week is Monday</option>
+	</select>-->
+	<!--
+	<label class="checkbox">
+		<input type="checkbox" value="#events-modal" id="events-in-modal"> Open events in modal window
+	</label>-->
+	<!--<label class="checkbox">
+		<input type="checkbox" id="format-12-hours" checked> 12 Hour format
+	</label>-->
+	<img src="img/legend.png">
+	<!--
+	<label class="checkbox">
+		<input type="checkbox" id="show_wb" checked> Show week box
+	</label>
+	<label class="checkbox">
+		<input type="checkbox" id="show_wbn" checked> Show week box number
+	</label>-->
+	</div>
 	
 	
 	<div class="modal fade" id="events-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
