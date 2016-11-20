@@ -74,7 +74,7 @@
 
 <blockquote>8:00am-9:00am &nbsp; &nbsp; HCI Midterm</blockquote>
 <blockquote>12:00pm-1:00pm &nbsp; Yelp Information Session</blockquote>
-<blockquote>1:00pm-2:00pm &nbsp; &nbsp; HCI Group Meeting&nbsp; &nbsp;&nbsp;<img src="Warning.jpg" width="73" height="60"></blockquote>
+<blockquote>1:00pm-2:00pm &nbsp; &nbsp; HCI Group Meeting&nbsp; &nbsp;&nbsp;<img src="Warning.JPG" width="73" height="60"></blockquote>
 
 
 
