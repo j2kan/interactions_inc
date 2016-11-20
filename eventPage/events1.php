@@ -65,6 +65,7 @@ include '../nav.php';
       document.getElementById("demo").innerHTML = x;
   }
   </script>
+<p>The event has now been added to your calendar!</p>
 
   <img src="event1.png" alt="Event One" usemap = "#attendEvent1" border="2">
   <map name="attendEvent1">

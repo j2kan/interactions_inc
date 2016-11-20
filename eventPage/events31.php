@@ -10,6 +10,7 @@ include '../nav.php';
 {
     color: blue;
 }
+
 .flex-container
 {
     display: -webkit-flex;
@@ -26,10 +27,10 @@ include '../nav.php';
     flex: 1 75%;
 }
 
-.article {
+.article
+{
     text-align: left;
 }
-
 
 @media all and (min-width: 700px) {
     .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
@@ -53,8 +54,8 @@ include '../nav.php';
     <h1>Kitchener, ON Events</h1>
   </header>
   <p></p>
-  <p id="demo"></p>
 
+  <p id="demo"></p>
   <script>
   function myFunction2()
   {
@@ -68,11 +69,11 @@ include '../nav.php';
       document.getElementById("demo").innerHTML = x;
   }
   </script>
-  <p id = "p01">The "Social Impact Showcase" has now been ADDED to your calendar!</p>
+  <p id ="p01" >The "Waterloo Region Cycling Forum" has now been ADDED to your calendar!</p>
 
-  <img src="eventOne.png" alt="Event One" usemap = "#attendEvent1" border="2">
+  <img src="event1.png" alt="Event One" usemap = "#attendEvent1" border="2">
   <map name="attendEvent1">
-  <area shape="poly" coords="226,60,285,60,285,92,228,90"  href = "../eventPage/events31.php">
+  <area shape="poly" coords="226,60,285,60,285,92,228,90" href = "../eventPage/events313.php">
   <area shape="poly" coords="711,103,746,102,747,139,709,138"  onclick = "myFunction2()">
   <area shape="poly" coords="5,3,202,4,202,101,5,103,11,113,192,116,194,129,14,128" href#>
   </map>
@@ -91,7 +92,7 @@ include '../nav.php';
 
   <img src="event3.png" alt="Event Three" usemap = "#attendEvent3" border="2">
   <map name="attendEvent3">
-  <area shape="poly" coords="229,57,287,55,289,90,228,87" href = "../eventPage/events.php">
+  <area shape="poly" coords="229,57,287,55,289,90,228,87" href = "../eventPage/events3.php">
   <area shape="poly" coords="706,101,745,103,748,137,706,134"  onclick = "myFunction2()">
   <area shape="poly" coords="6,4,186,8,193,97,5,99" href#>
   <area shape="poly" coords="7,113,181,111,183,131,8,129" href#>
