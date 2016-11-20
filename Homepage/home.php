@@ -98,11 +98,7 @@ By accessing and/or using this code snippet, you agree to AccuWeather’s terms 
 			    <td>Study MSCI 333</td>
 			    <td><a href="home_clicked.php"><img src="img/grey.png" width="20" height="20"></a></td>
 			  </tr>
-			  <tr><td><br></td></tr>
-			  <tr>
-			    <td>Find a Sublet</td>
-			    <td><img src="img/grey.png" width="20" height="20"></td>
-			  </tr>
+
 			 </table>
 		</div>
 
