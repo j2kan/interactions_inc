@@ -57,6 +57,11 @@ include '../nav.php';
 
   <p id="demo"></p>
   <script>
+  function myFunction1()
+  {
+    alert("Event has been removed.");
+    window.location.href = "../eventPage/events31.php";
+  }
   function myFunction2()
   {
     var person = prompt("Who would you like to share this with?",
@@ -73,7 +78,7 @@ include '../nav.php';
 
   <img src="eventOne.png" alt="Event One" usemap = "#attendEvent1" border="2">
   <map name="attendEvent1">
-  <area shape="poly" coords="226,60,285,60,285,92,228,90" href = "../eventPage/events3.php">
+  <area shape="poly" coords="226,60,285,60,285,92,228,90" onclick = "myFunction1()">
   <area shape="poly" coords="711,103,746,102,747,139,709,138"  onclick = "myFunction2()">
   <area shape="poly" coords="5,3,202,4,202,101,5,103,11,113,192,116,194,129,14,128" href#>
   </map>

@@ -57,6 +57,11 @@ include '../nav.php';
 
   <p id="demo"></p>
   <script>
+  function myFunction1()
+  {
+    alert("Event has been removed.");
+    window.location.href = "../eventPage/events313.php";
+  }
   function myFunction2()
   {
     var person = prompt("Who would you like to share this with?",

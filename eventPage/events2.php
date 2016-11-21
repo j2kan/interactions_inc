@@ -6,6 +6,10 @@ include '../nav.php';
   <link rel="stylesheet" href="../Homepage/components/bootstrap3/css/bootstrap.css">
 	<link rel="stylesheet" href="../Homepage/components/bootstrap3/css/bootstrap-responsive.css">
 <style>
+#p01
+{
+    color: blue;
+}
 .flex-container
 {
     display: -webkit-flex;
@@ -52,6 +56,11 @@ include '../nav.php';
   <p id="demo"></p>
 
   <script>
+  function myFunction1()
+  {
+    alert("Event has been removed.");
+    window.location.href = "../eventPage/events.php";
+  }
   function myFunction2()
   {
     var person = prompt("Who would you like to share this with?",
@@ -76,7 +85,7 @@ include '../nav.php';
 
   <img src="event2.png" alt="Event Two" usemap = "#attendEvent2" border = "2">
   <map name="attendEvent2">
-  <area shape="poly" coords="230,61,293,61,292,92,230,96" href = "../eventPage/events.php">
+  <area shape="poly" coords="230,61,293,61,292,92,230,96" onclick = "myFunction1()">
   <area shape="poly" coords="710,104,744,105,747,140,709,140"  onclick = "myFunction2()">
   <area shape="poly" coords="2,5,201,3,201,102,2,102,11,115" href#>
   <area shape="poly" coords="195,113,195,129,10,129" href#>
