@@ -16,7 +16,7 @@
 
   <h1>Congratulations!</h1>
 
-    <h3>Oliver Wynman</h3>
+    <h3>Oliver Wyman</h3>
     <p>October 26th, 2016</p>
    <table id="DB_course_table" class="table table-hover">
   <tr>

@@ -36,7 +36,7 @@
   </tr>
 
     <tr>
-    <td>Oliver Wynman</td>
+    <td>Oliver Wyman</td>
     <td>October 26th, 2016</td>
     <td>3:00pm-3:30pm</td>
     <td><a href="../Homepage/JobmineSelectScreen3.php">Change Time</a></td>

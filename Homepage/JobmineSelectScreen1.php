@@ -36,7 +36,7 @@
   </tr>
 
     <tr class="active">
-    <td>Oliver Wynman</td>
+    <td>Oliver Wyman</td>
     <td>October 26th, 2016</td>
     <td></td>
     <td><a href="../Homepage/JobmineInterviewTime1.php">Select Time</a></td>

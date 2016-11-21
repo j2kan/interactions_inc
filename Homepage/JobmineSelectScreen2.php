@@ -36,7 +36,7 @@
   </tr>
 
     <tr>
-    <td>Oliver Wynman</td>
+    <td>Oliver Wyman</td>
     <td>October 26th, 2016</td>
     <td>2:30pm-3:00pm</td>
     <td><a href="../Homepage/JobmineInterviewTime3.php">Change Time</a></td>

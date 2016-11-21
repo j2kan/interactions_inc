@@ -17,7 +17,7 @@
 
 	<h1>Congratulations!</h1>
 
-    <h3>Oliver Wynman</h3>
+    <h3>Oliver Wyman</h3>
     <p>October 26th, 2016</p>
 	 <table id="DB_course_table" class="table table-hover">
   <tr>
@@ -78,7 +78,7 @@
 <blockquote>8:00am-9:00am &nbsp; &nbsp; HCI Midterm</blockquote>
 <blockquote>12:00pm-1:00pm &nbsp; Yelp Information Session</blockquote>
 <blockquote>1:00pm-2:00pm &nbsp; &nbsp; HCI Group Meeting</blockquote>
-<blockquote>2:30pm-3:00pm &nbsp; &nbsp; Oliver Wynman Interview!</blockquote>
+<blockquote>2:30pm-3:00pm &nbsp; &nbsp; Oliver Wyman Interview!</blockquote>
 
   </div>
 </div>
