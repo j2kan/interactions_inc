@@ -50,7 +50,7 @@ img.avatar2 {
     <ul class="nav navbar-nav navbar-right">
     <li> <a href="../underdev/under_dev.html"> <img src="../rudra2.jpg" class="avatar" align="right"> </a>
     </li>
-      <li><a href="../Homepage/home.php"><span class="glyphicon glyphicon-pencil"></span> Class</a></li>
+      <li><a href="../Homepage/home.php"><span class="glyphicon glyphicon-pencil"></span> Schedule</a></li>
       <li><a href="../Homepage/JobmineSelectScreen1.php"><span class="glyphicon glyphicon-usd"></span>Jobmine</a></li>
       <li><a href="../eventPage/events.php"><span class="glyphicon glyphicon-map-marker"></span> Events</a></li>
       <li><a href="../underdev/under_dev.html"><span class="glyphicon glyphicon-envelope"></span> Email</a></li>
