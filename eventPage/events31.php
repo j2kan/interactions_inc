@@ -74,7 +74,6 @@ include '../nav.php';
       document.getElementById("demo").innerHTML = x;
   }
   </script>
-  <p id ="p01" >The "Waterloo Region Cycling Forum" has now been ADDED to your calendar!</p>
 
   <img src="event1.png" alt="Event One" usemap = "#attendEvent1" border="2">
   <map name="attendEvent1">
