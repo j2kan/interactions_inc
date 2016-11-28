@@ -58,7 +58,7 @@ include '../nav.php';
   <script>
   function myFunction1()
   {
-    alert("Event has been removed.");
+    alert("Event has now been added!");
     window.location.href = "../eventPage/events31.php";
   }
   function myFunction2()
