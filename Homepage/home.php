@@ -62,7 +62,7 @@
 <!--
 By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at http://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at http://www.accuweather.com/en/privacy.
 -->
-</a><div id="awcc1479676926831" class="aw-widget-current"  data-locationkey="55073" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1479676926831"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
+</a><div id="awcc1479676926831" class="aw-widget-current"  data-locationkey="55073" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1479676926831"></div><script type="text/javascript" src="oap.accuweather.com/launch.js"></script>
 			<!--<a href="index_clicked.html"><img src="img/add.jpg" width="20" height="20"></a>
 			&#160;&#160;&#160;
 			<a href="index_clicked.html"><img src="img/remove.jpg" width="20" height="20"></a>
