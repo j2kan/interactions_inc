@@ -58,7 +58,7 @@
 
 		</div>
 		<div class="col-lg-3">
-			<a href="www.accuweather.com/en/ca/waterloo/n2l/weather-forecast/55073" class="aw-widget-legal">
+			<a href="http://www.accuweather.com/en/ca/waterloo/n2l/weather-forecast/55073" class="aw-widget-legal">
 <!--
 By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at http://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at http://www.accuweather.com/en/privacy.
 -->
